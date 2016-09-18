@@ -358,8 +358,10 @@ ModelImporter:
     400348: wristRJT
     400350: wristRJTEnd
     4300000: Cat_geo
-    7400000: Take 001
+    7400000: stand
+    7400002: meow
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Cat_geo
   materials:
     importMaterials: 1
@@ -381,11 +383,771 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: stand
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animJTGP
+        weight: 1
+      - path: animJTGP/world
+        weight: 1
+      - path: animJTGP/world/hipJTSpace
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT/tailEJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT/tailEJT/tailFJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT/tailEJT/tailFJT/tailJTEnd
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT/tarsusLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT/tarsusLJT/ankleLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT/tarsusLJT/ankleLJT/ankleLJTEnd
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT/tarsusRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT/tarsusRJT/ankleRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT/tarsusRJT/ankleRJT/ankleRJTEnd
+        weight: 1
+      - path: animJTGP/world/rootJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT/elbowLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT/elbowLJT/wristLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT/elbowLJT/wristLJT/wristLJTEnd
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT/elbowRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT/elbowRJT/wristRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT/elbowRJT/wristRJT/wristRJTEnd
+        weight: 1
+      - path: animJTGP/world/spineFkGP
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEnd_aimUp
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEndAim
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEndAim/spineCFK
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEndAim/spineCFK/spineCFKEnd
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMid_aimUp
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMidAim
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMidAim/spineMidOffset
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMidAim/spineMidOffset/spineBFK
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTop_aimUp
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earALJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earALJT/earBLJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earALJT/earBLJT/earCLJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earARJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earARJT/earBRJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earARJT/earBRJT/earCRJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/headJTEnd
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/spineAFKEnd
+        weight: 1
+      - path: controllerGP
+        weight: 1
+      - path: controllerGP/worldProxy
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace/tailE
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace/tailE/tailFSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace/tailE/tailFSpace/tailF
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavLSpace/clavL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavRSpace/clavR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace/earAL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace/earAL/earBLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace/earAL/earBLSpace/earBL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace/earAR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace/earAR/earBRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace/earAR/earBRSpace/earBR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/headIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/neckPVSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/neckPVSpace/neckPV
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineMidSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineMidSpace/spineMid
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/ankleLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace/cForceUpLegL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace/cForceUpLegL/ikUpLegLGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace/cForceUpLegL/ikUpLegLGP/upLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/lowLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/ankleRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace/cForceUpLegR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace/cForceUpLegR/ikUpLegRGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace/cForceUpLegR/ikUpLegRGP/uprLegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/lwrlegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntFootL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntFootL/frntLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntFootL/fullFrntLegIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntLegPVLRotGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntLegPVLRotGP/frntLegTwistLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntLegPVLRotGP/frntLegTwistLSpace/frntLegTwistL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntFootR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntFootR/frntFullLegRIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntFootR/frntLegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntLegPVRRotGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntLegPVRRotGP/frntLegTwistRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntLegPVRRotGP/frntLegTwistRSpace/frntLegTwistR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/footL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/footL/fullLegLIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/footL/fullLegLIkHSpace/fullLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/poleVecRotLGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/poleVecRotLGP/legTwistLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/poleVecRotLGP/legTwistLSpace/legTwistL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/footR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/footR/fullLegRIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/footR/fullLegRIkHSpace/fullLegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/poleVecRotRGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/poleVecRotRGP/legTwistRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/poleVecRotRGP/legTwistRSpace/legTwistR
+        weight: 1
+      - path: geoGP
+        weight: 1
+      - path: geoGP/Cat_geo
+        weight: 1
+      - path: setupGP
+        weight: 1
+      - path: setupGP/spine_FollicleGP
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineAFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineAFoll/curve1
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineAFoll/spineAJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineBFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineBFoll/curve2
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineBFoll/spineBJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineCFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineCFoll/curve3
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineCFoll/spineCJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineDFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineDFoll/curve4
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineDFoll/spineDJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineEFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineEFoll/curve5
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineEFoll/spineEJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineFFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineFFoll/curve6
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineFFoll/spineFJT
+        weight: 1
+      - path: setupGP/spineSrf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: meow
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: animJTGP
+        weight: 1
+      - path: animJTGP/world
+        weight: 1
+      - path: animJTGP/world/hipJTSpace
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT/tailEJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT/tailEJT/tailFJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/tailAJTSpace/tailAJT/tailBJT/tailCJT/tailDJT/tailEJT/tailFJT/tailJTEnd
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT/tarsusLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT/tarsusLJT/ankleLJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegLJT/kneeLJT/tarsusLJT/ankleLJT/ankleLJTEnd
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT/tarsusRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT/tarsusRJT/ankleRJT
+        weight: 1
+      - path: animJTGP/world/hipJTSpace/hipJT/upLegRJT/kneeRJT/tarsusRJT/ankleRJT/ankleRJTEnd
+        weight: 1
+      - path: animJTGP/world/rootJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT/elbowLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT/elbowLJT/wristLJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavLJTSpace/clavLJT/shoulderLJT/elbowLJT/wristLJT/wristLJTEnd
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT/elbowRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT/elbowRJT/wristRJT
+        weight: 1
+      - path: animJTGP/world/rootJT/shldrJT/clavRJTSpace/clavRJT/shoulderRJT/elbowRJT/wristRJT/wristRJTEnd
+        weight: 1
+      - path: animJTGP/world/spineFkGP
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEnd_aimUp
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEndAim
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEndAim/spineCFK
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineEndPos/spineEndAim/spineCFK/spineCFKEnd
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMid_aimUp
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMidAim
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMidAim/spineMidOffset
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineMidPos/spineMidAim/spineMidOffset/spineBFK
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTop_aimUp
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earALJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earALJT/earBLJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earALJT/earBLJT/earCLJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earARJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earARJT/earBRJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/earARJT/earBRJT/earCRJT
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/neckAJTSpace/neckAJT/neckBJT/neckCJT/headJT/headJTEnd
+        weight: 1
+      - path: animJTGP/world/spineFkGP/spineTopPos/spineTopAim/spineAFK/spineAFKEnd
+        weight: 1
+      - path: controllerGP
+        weight: 1
+      - path: controllerGP/worldProxy
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace/tailE
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace/tailE/tailFSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineEndSpace/spineEnd/tailASpace/tailA/tailBSpace/tailB/tailCSpace/tailC/tailDSpace/tailD/tailESpace/tailE/tailFSpace/tailF
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavLSpace/clavL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/clavRSpace/clavR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace/earAL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace/earAL/earBLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earALSpace/earAL/earBLSpace/earBL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace/earAR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace/earAR/earBRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/earARSpace/earAR/earBRSpace/earBR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/headSpace/head/headIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/neckPVSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineFrntSpace/spineFrnt/neckPVSpace/neckPV
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineMidSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/bodyMain/spineCtrlSpace/spineMidSpace/spineMid
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/ankleLCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace/cForceUpLegL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace/cForceUpLegL/ikUpLegLGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/cForceUpLegLSpace/cForceUpLegL/ikUpLegLGP/upLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegLCJT/kneeLCJT/tarsusLCJT/lowLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/ankleRCJT
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace/cForceUpLegR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace/cForceUpLegR/ikUpLegRGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/cForceUpLegRSpace/cForceUpLegR/ikUpLegRGP/uprLegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/controlJTGP/upLegRCJT/kneeRCJT/tarsusRCJT/lwrlegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntFootL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntFootL/frntLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntFootL/fullFrntLegIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntLegPVLRotGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntLegPVLRotGP/frntLegTwistLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegLIkCtrlGP/frntLegPVLRotGP/frntLegTwistLSpace/frntLegTwistL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntFootR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntFootR/frntFullLegRIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntFootR/frntLegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntLegPVRRotGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntLegPVRRotGP/frntLegTwistRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/frntLegRIkCtrlGP/frntLegPVRRotGP/frntLegTwistRSpace/frntLegTwistR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/footL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/footL/fullLegLIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/footL/fullLegLIkHSpace/fullLegLIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/poleVecRotLGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/poleVecRotLGP/legTwistLSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legLIkCtrlGP/poleVecRotLGP/legTwistLSpace/legTwistL
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/footR
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/footR/fullLegRIkHSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/footR/fullLegRIkHSpace/fullLegRIkH
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/poleVecRotRGP
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/poleVecRotRGP/legTwistRSpace
+        weight: 1
+      - path: controllerGP/worldProxy/fkCtrlGP/ikCtrlGP/legRIkCtrlGP/poleVecRotRGP/legTwistRSpace/legTwistR
+        weight: 1
+      - path: geoGP
+        weight: 1
+      - path: geoGP/Cat_geo
+        weight: 1
+      - path: setupGP
+        weight: 1
+      - path: setupGP/spine_FollicleGP
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineAFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineAFoll/curve1
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineAFoll/spineAJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineBFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineBFoll/curve2
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineBFoll/spineBJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineCFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineCFoll/curve3
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineCFoll/spineCJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineDFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineDFoll/curve4
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineDFoll/spineDJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineEFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineEFoll/curve5
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineEFoll/spineEJT
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineFFoll
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineFFoll/curve6
+        weight: 1
+      - path: setupGP/spine_FollicleGP/spineFFoll/spineFJT
+        weight: 1
+      - path: setupGP/spineSrf
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 30
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -419,7 +1181,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

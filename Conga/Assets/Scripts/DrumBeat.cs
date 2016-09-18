@@ -10,6 +10,8 @@ public class DrumBeat : MonoBehaviour {
 	public GameObject paintSpotPreFab;
 	public string wall;
 
+	public GameObject kittyAnim;
+
 	float getRandomRotation () {
 		return (Random.value * 90) - 45;
 	}
@@ -51,14 +53,14 @@ public class DrumBeat : MonoBehaviour {
 	void OnTriggerEnter (Collider other) {
 		if (other.gameObject.tag == "Left Hand") {
 			audio.Play();
-			GetComponent<Animation>().Play ();
+			kittyAnim.GetComponent<Animation> ().Play ("meow", PlayMode.StopAll);
 			PaintWall (wall);
 			PaintWall ("back");
 		}
 
 		if (other.gameObject.tag == "Right Hand") {
 			audio.Play();
-			GetComponent<Animation>().Play ();
+			kittyAnim.GetComponent<Animation> ().Play ("meow", PlayMode.StopAll);
 			PaintWall (wall);
 			PaintWall ("back");
 		}
