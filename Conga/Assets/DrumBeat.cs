@@ -6,10 +6,12 @@ public class DrumBeat : MonoBehaviour {
 
 	//public GameObject PlayerHands;
 	private AudioSource audio;
+	public float pitch = 0.1f;
 
 	// Use this for initialization
 	void Start () {
-		 audio = GetComponent<AudioSource>();
+		audio = GetComponent<AudioSource>();
+		audio.pitch = pitch;
 	}
 	
 	// Update is called once per frame
@@ -18,14 +20,11 @@ public class DrumBeat : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other) {
-		Debug.Log("Hands collided with something");
 		if (other.gameObject.tag == "Left Hand") {
-			Debug.Log ("You hit the drum");
 			audio.Play();
 		}
 
 		if (other.gameObject.tag == "Right Hand") {
-			Debug.Log ("You hit the drum");
 			audio.Play();
 		}
 	}
