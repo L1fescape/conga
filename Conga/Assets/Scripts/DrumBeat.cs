@@ -9,6 +9,7 @@ public class DrumBeat : MonoBehaviour {
 
 	public GameObject paintSpotPreFab;
 	public string wall;
+	private float lastHit;
 
 	public GameObject kittyAnim;
 
@@ -48,14 +49,24 @@ public class DrumBeat : MonoBehaviour {
 	void Start () {
 		audio = GetComponent<AudioSource>();
 		audio.pitch = pitch;
+		lastHit = Time.time;
 	}
 
 	void OnTriggerEnter (Collider other) {
+		if (Time.time - lastHit <= 0.1f) {
+			return;
+		}
+
 		if (other.gameObject.tag == "Left Hand") {
 			audio.Play();
 			kittyAnim.GetComponent<Animation> ().Play ("meow", PlayMode.StopAll);
 			PaintWall (wall);
 			PaintWall ("back");
+		}
+
+		if (other.gameObject.tag == "Left Hand Fingers") {
+			audio.Play();
+			PaintWall (wall);
 		}
 
 		if (other.gameObject.tag == "Right Hand") {
@@ -64,6 +75,20 @@ public class DrumBeat : MonoBehaviour {
 			PaintWall (wall);
 			PaintWall ("back");
 		}
+
+		if (other.gameObject.tag == "Right Hand Fingers") {
+			audio.Play();
+			PaintWall (wall);
+		}
+
+		if (other.gameObject.tag == "Drum Stick") {
+			audio.Play();
+			kittyAnim.GetComponent<Animation> ().Play ("meow", PlayMode.StopAll);
+			PaintWall (wall);
+			PaintWall ("back");
+		}
+
+		lastHit = Time.time;
 	}
 
 	void PaintWall(string wall) {
