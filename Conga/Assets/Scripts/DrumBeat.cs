@@ -56,10 +56,12 @@ public class DrumBeat : MonoBehaviour {
 		if (Time.time - lastHit <= 0.1f) {
 			return;
 		}
+			
+		gameObject.GetComponent<Animation>().Play ();
 
 		if (other.gameObject.tag == "Left Hand") {
 			audio.Play();
-			kittyAnim.GetComponent<Animation> ().Play ("meow", PlayMode.StopAll);
+			kittyAnim.GetComponent<Animation> ().Play ("meow");
 			PaintWall (wall);
 			PaintWall ("back");
 		}
@@ -83,7 +85,6 @@ public class DrumBeat : MonoBehaviour {
 
 		if (other.gameObject.tag == "Drum Stick") {
 			audio.Play();
-			kittyAnim.GetComponent<Animation> ().Play ("meow", PlayMode.StopAll);
 			PaintWall (wall);
 			PaintWall ("back");
 		}

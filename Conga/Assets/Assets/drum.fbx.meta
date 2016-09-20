@@ -1,23 +1,28 @@
 fileFormatVersion: 2
-guid: 7c5cd7682ff45004f86e4c374b1466fe
-timeCreated: 1474167946
+guid: 4c1ed3827a0c2e940a44e4d6e18cdd6d
+timeCreated: 1474348542
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: ffd1Base
+    100004: ffd1Lattice
+    100006: pCylinder1
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
+    400002: ffd1Base
+    400004: ffd1Lattice
+    400006: pCylinder1
+    2300000: pCylinder1
+    3300000: pCylinder1
     4300000: pCylinder1
     9500000: //RootNode
-    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
-    legacyGenerateAnimations: 0
+    legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleRotations: 1
     optimizeGameObjects: 0
@@ -36,7 +41,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -70,7 +75,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
